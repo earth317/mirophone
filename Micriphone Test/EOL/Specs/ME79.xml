@@ -1,0 +1,365 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0f2</Version>
+<Cluster>
+<Name>Config In</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>PSU</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Current Lower (mA)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Current Upper (mA)</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Voltage Lower (V)</Name>
+<Val>4.90000000000000</Val>
+</DBL>
+<DBL>
+<Name>Voltage Upper (V)</Name>
+<Val>5.10000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Mic</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Sensitivity (mV/Pa)</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Lower</Name>
+<Val>212.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>424.30000000000001</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>THD (%)</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Lower</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Array>
+<Name>Freq Response</Name>
+<Dimsize>6</Dimsize>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>200.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>300.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-9.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-4.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>2000.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-4.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>5999.99999999999999</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-4.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>List</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Freq</Name>
+<Val>7999.99999999999999</Val>
+</DBL>
+<DBL>
+<Name>Upper</Name>
+<Val>8.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Lower</Name>
+<Val>-4.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Power Supply</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>1</Val>
+</String>
+<DBL>
+<Name>Source Delay (Sec)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<I32>
+<Name>Measurement:Sense</Name>
+<Val>1008</Val>
+</I32>
+<DBL>
+<Name>voltage level</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>voltage level range</Name>
+<Val>6.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>current limit</Name>
+<Val>2.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>current limit range</Name>
+<Val>2.00000000000000E-2</Val>
+</DBL>
+<Refnum>
+<Name>resource name</Name>
+<RefKind>IVI</RefKind>
+<Val>PSU</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Sweep</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Input Settings</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>IEPE min time to settle [s]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Responce Channel Settings</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>DSA response channel settings</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>coupling</Name>
+<Val>10045</Val>
+</I32>
+<Boolean>
+<Name>enable IEPE excitation</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>IEPE current [mA]</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>response channel info</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>sensor sensitivity</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<U16>
+<Name>engineering units</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>dB reference</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<String>
+<Name>custom label</Name>
+<Val>EU</Val>
+</String>
+<U16>
+<Name>weighting filter</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>pregain</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>AI response settings</Name>
+<NumElts>4</NumElts>
+<DAQChannel>
+<Name>response channel</Name>
+<Val>SOUNDACQ/ai1</Val>
+</DAQChannel>
+<DBL>
+<Name>max value [V]</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>min value [V]</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<I32>
+<Name>terminal configuration</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Stimulus Channel Settings</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>AI stimulus settings</Name>
+<NumElts>4</NumElts>
+<DAQChannel>
+<Name>stimulus channel</Name>
+<Val>SOUNDACQ/ai0</Val>
+</DAQChannel>
+<DBL>
+<Name>max value [V]</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>min value [V]</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<I32>
+<Name>terminal configuration</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>DSA stimulus channel settings</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>coupling</Name>
+<Val>10045</Val>
+</I32>
+<Boolean>
+<Name>enable IEPE excitation</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>IEPE current [mA]</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>stimulus channel info</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>sensor sensitivity</Name>
+<Val>1000.00000000000000</Val>
+</DBL>
+<U16>
+<Name>engineering units</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>dB reference</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<String>
+<Name>custom label</Name>
+<Val>EU</Val>
+</String>
+<U16>
+<Name>weighting filter</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>pregain</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Output Settings</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>AO source settings</Name>
+<NumElts>4</NumElts>
+<DAQChannel>
+<Name>excitation channel</Name>
+<Val>SOUNDACQ/ao0</Val>
+</DAQChannel>
+<DBL>
+<Name>max value [V]</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>min value [V]</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<I32>
+<Name>terminal configuration</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+</Cluster>
+</Cluster>
+</Cluster>
+</LVData>

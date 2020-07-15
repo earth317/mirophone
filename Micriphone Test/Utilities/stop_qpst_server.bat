@@ -1,0 +1,1 @@
+taskkill /IM QPSTServer.exe /T /F

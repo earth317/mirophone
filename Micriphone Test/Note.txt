@@ -1,0 +1,17 @@
+
+
+Pre UUT - Displays a dialog box in which the operator enters the UUTserial number.  Override this in client file to change or replace this action.
+
+PreBatch - Displays a dialog box in which the operator enters the Batch and UUTserial numbers.  Override this in client file to change or replace this action.
+
+PreBatch Loop - The model calls this before looping on Batches of UUTs.  Is empty in model file.  Override this in the client file to perform an action before any UUTs are tested
+
+Pre UUT Loop - Test UUTs calls this before looping on UUTs.  Is empty in model file.  Override this in the client file to perform an action before any UUTs are tested.
+
+
+
+Post UUT - Displays a pass, fail, error, or terminated banner. Override this in client file to change or replace this action.
+
+PostBatch - Displays a pass, fail, error, or terminated banner for each TestSocket and allows viewing of Batch and UUT reports. Override this in client file to change or replace this action.
+
+PostBatch Loop - The model calls this after looping on Batches of UUTs.  Is empty in model file.  Override this in the client file to perform an action after all UUTs are tested.
